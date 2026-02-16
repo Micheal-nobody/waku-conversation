@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "demo": "tsx demo.ts",
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
@@ -32,6 +33,7 @@
     "typescript": "^5.2.2",
     "vite": "^5.0.8",
     "vitest": "^2.1.0",
-    "happy-dom": "^15.11.0"
+    "happy-dom": "^15.11.0",
+    "tsx": "^4.7.0"
   }
 }

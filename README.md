@@ -2,8 +2,6 @@
 
 基于 Waku 协议的迷你加密聊天应用，支持点对点和群组聊天，提供消息加密、撤回、历史消息等功能。
 
-
-
 ## 核心功能
 
 - ✅ **直接聊天**：两个用户之间的点对点通信
@@ -23,7 +21,7 @@
 npm install
 ```
 
-### 2. 启动本地Waku节点（可选）
+### 2. 启动本地Waku节点
 
 ```bash
 start-waku-node.bat
@@ -142,7 +140,7 @@ npm run demo
 - **`src/sdk/types.ts`**：类型定义
 - **`src/App.tsx`**：React应用界面
 - **`start-waku-node.bat`**：本地 Waku 节点启动脚本
-- **`demo-script.ts`**：演示脚本
+- **`demo.ts`**：演示脚本
 
 ## 总结
 
